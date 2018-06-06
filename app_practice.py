@@ -1,6 +1,6 @@
 from flask import Flask, jsonify, request, render_template
 
-app = Flask(__name__)
+# app = Flask(__name__)
 
 stores = [
     {
@@ -63,5 +63,5 @@ def get_item_in_store(name):
     return jsonify({'message': 'item not found'})
 
 
-if __name__ == '__main__':
-    app.run()
+# if __name__ == '__main__':
+#     app.run()
